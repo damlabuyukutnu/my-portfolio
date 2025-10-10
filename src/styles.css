@@ -1,0 +1,17 @@
+/* styles.css */
+.splash-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;          /* canvas diğer öğelerin üzerinde */
+    pointer-events: none;  /* mouse eventlerini geçersiz kılar */
+    width: 100%;
+    height: 100%;
+  }
+  
+  .splash-canvas {
+    width: 100vw;
+    height: 100vh;
+    display: block;        /* canvas blok görünümü */
+  }
+  

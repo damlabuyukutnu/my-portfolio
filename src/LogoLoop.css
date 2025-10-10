@@ -1,0 +1,47 @@
+.logo-loop-wrapper {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    padding: 1rem 0;
+    mask-image: linear-gradient(
+      to right,
+      transparent,
+      black 10%,
+      black 90%,
+      transparent
+    );
+  }
+  
+  .logo-loop {
+    display: inline-flex;
+    gap: 3rem;
+    animation: scroll 20s linear infinite;
+  }
+  
+  .logo-img {
+    height: 48px;
+    width: 48px;
+    object-fit: contain;
+    opacity: 0.9;
+    transition: transform 0.3s ease;
+  }
+  
+  .logo-img:hover {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-25%);
+    }
+  }
+  
+  

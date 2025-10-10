@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  background-color: #000;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px; /* Navbar yüksekliği kadar */
+}
+
+
+.portfolio-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #111 70%, #222 100%);
+}
+
+
+.portfolio-card {
+  background: rgb(6,0,16);
+  border: 2px solid #392e4e;
+  border-radius: 40px;
+  box-shadow: 0 4px 32px #000c;
+  padding: 2.5rem 2rem;
+  max-width: 600px;
+  width: 100%;
+  margin: 2rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  /* opacity: 0;
+  transform: translateY(40px) scale(0.98);
+  animation: cardFadeIn 0.7s cubic-bezier(0.4,0,0.2,1) forwards; */
+}
+
+@keyframes cardFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.portfolio-card:hover {
+  transform: translateY(-6px) scale(1.015);
+  box-shadow: 0 30px 44px rgba(84, 18, 123, 0.472), 0 2px 12px #0008;
+}
+
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1.6rem;
+}
+
+.project-card {
+  flex: 1 1 160px;
+  background: #232323;
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  color: #fff;
+  min-width: 180px;
+  box-shadow: 0 2px 10px #0006;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: scale(1.045);
+  box-shadow: 0 6px 28px rgba(84, 18, 123, 0.472), 0 2px 8px #0006;
+}
+
+
+h1, h2, h4 {
+  color: rgba(84, 18, 123, 0.472);
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+
+@media (max-width: 700px) {
+  .portfolio-card {
+    padding: 1.2rem 0.6rem;
+    margin: 1rem 0.1rem;
+  }
+  .project-list {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+
