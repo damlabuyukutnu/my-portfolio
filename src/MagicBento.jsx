@@ -12,8 +12,8 @@ const MOBILE_BREAKPOINT = 768;
 const cardData = [
     {
         color: '#060010',
-        title: 'Hesap Makinesi',
-        description: 'Basit hesap makinesi uygulaması',
+        title: 'Calculator',
+        description: 'Simple calculator application',
         label: 'Project 1',
         liveLink: 'https://hesap-makinesi-basit.vercel.app',
         githubLink: 'https://github.com/damlabuyukutnu/hesap-makinesi-basit',
@@ -22,7 +22,7 @@ const cardData = [
     {
         color: '#060010',
         title: 'Github User Search App',
-        description: 'Basit github kullanıcı arama uygulaması',
+        description: 'Simple GitHub user search application',
         label: 'Project 2',
         liveLink: 'https://github-user-search-zeta-ruddy.vercel.app',
         githubLink: 'https://github.com/damlabuyukutnu/GithubUserSearch',
@@ -31,7 +31,7 @@ const cardData = [
     {
         color: '#060010',
         title: 'Microblog',
-        description: 'Microblog uygulaması',
+        description: 'Microblog application',
         label: 'Project 3',
         liveLink: 'https://microblog-puce-psi.vercel.app/login',
         githubLink: 'https://github.com/damlabuyukutnu/microblog',
@@ -40,7 +40,7 @@ const cardData = [
     {
         color: '#060010',
         title: 'Shopping Site',
-        description: 'Alışveriş Sitesi',
+        description: 'E-commerce website',
         label: 'Project 4',
         liveLink: 'https://shopping-site-three-ruddy.vercel.app',
         githubLink: 'https://github.com/damlabuyukutnu/shopping-site',
@@ -49,7 +49,7 @@ const cardData = [
     {
         color: '#060010',
         title: 'Quiz App',
-        description: 'Web Quiz Uygulaması',
+        description: 'Web quiz application',
         label: 'Project 5',
         liveLink: 'https://quiz-app-dun-tau.vercel.app',
         githubLink: 'https://github.com/damlabuyukutnu/Quiz-App',
@@ -58,7 +58,7 @@ const cardData = [
     {
         color: '#060010',
         title: 'Todo App',
-        description: 'Yapılacaklar Uygulaması',
+        description: 'To-do list application',
         label: 'Project 6',
         liveLink: 'https://todo-app-topaz-seven-30.vercel.app',
         githubLink: 'https://github.com/damlabuyukutnu/todo-app',
