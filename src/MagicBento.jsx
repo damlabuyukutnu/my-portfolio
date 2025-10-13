@@ -30,9 +30,12 @@ const cardData = [
     },
     {
         color: '#060010',
-        title: 'Collaboration',
-        description: 'Work together seamlessly',
-        label: 'Project 3'
+        title: 'Microblog',
+        description: 'Microblog uygulaması',
+        label: 'Project 3',
+        liveLink: 'https://microblog-puce-psi.vercel.app/login',
+        githubLink: 'https://github.com/damlabuyukutnu/microblog',
+        image: '/logos/microblog.png'
     },
     {
         color: '#060010',
@@ -550,8 +553,10 @@ const MagicBento = ({
                                         style={{
                                             display: 'block',
                                             margin: '1rem auto',
-                                            maxWidth: card.label === 'Project 4' ? '300px' : '150px',
-                                            maxHeight: card.label === 'Project 4' ? '200px' : '100px',
+                                            maxWidth:
+                                                card.label === 'Project 3' || card.label === 'Project 4' ? '300px' : '150px',
+                                            maxHeight:
+                                                card.label === 'Project 3' || card.label === 'Project 4' ? '300px' : '100px',
                                             width: 'auto',
                                             height: 'auto',
                                             borderRadius: '12px',
