@@ -1,16 +1,62 @@
-# React + Vite
+# **Portfolio Website**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo: 👉 https://my-portfolio-nine-neon-28.vercel.app
 
-Currently, two official plugins are available:
+A personal portfolio website built with **React** to showcase skills, projects, experience, and contact information. This site presents a clean, responsive, and modern frontend interface to highlight my work as a developer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## **Features**
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Built with **React** and modern frontend practices  
+- **Responsive design** for desktop, tablet, and mobile
+- Showcases **projects, skills, about, and contact sections**
+- Smooth user interaction and intuitive navigation
+- Deployed on **Vercel** for fast performance
+- Easy to update and customize for future improvements
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## **Tech Stack**
+
+- **React**
+- **JavaScript**
+- **CSS**
+- **Responsive Web Design**
+- Hosted on **Vercel**
+
+---
+
+## **About the Project**
+
+This portfolio was created to present my work, showcase my skillset in modern web development, and act as a professional hub for recruiters and collaborators. It highlights examples of frontend projects, provides a short bio, and includes contact links for networking or job opportunities.
+
+---
+
+## **Screenshots**
+
+(Add your screenshots to a `screenshots/` folder and reference them below)
+
+### Home Section
+
+![Home](./screenshots/home.png)
+
+### Projects Section
+
+![Projects](./screenshots/projects.png)
+
+### Contact Section
+
+![Contact](./screenshots/contact.png)
+
+---
+
+## **Getting Started**
+
+To run this project locally:
+
+```bash
+git clone <your-repo-link>
+cd <project-name>
+npm install
+npm run dev
