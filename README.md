@@ -1,6 +1,6 @@
 # **Portfolio Website**
 
-Live Demo: 👉 https://my-portfolio-nine-neon-28.vercel.app
+Live Demo: https://my-portfolio-nine-neon-28.vercel.app
 
 A personal portfolio website built with **React** to showcase skills, projects, experience, and contact information. This site presents a clean, responsive, and modern frontend interface to highlight my work as a developer.
 
@@ -30,24 +30,6 @@ A personal portfolio website built with **React** to showcase skills, projects, 
 ## **About the Project**
 
 This portfolio was created to present my work, showcase my skillset in modern web development, and act as a professional hub for recruiters and collaborators. It highlights examples of frontend projects, provides a short bio, and includes contact links for networking or job opportunities.
-
----
-
-## **Screenshots**
-
-(Add your screenshots to a `screenshots/` folder and reference them below)
-
-### Home Section
-
-![Home](./screenshots/home.png)
-
-### Projects Section
-
-![Projects](./screenshots/projects.png)
-
-### Contact Section
-
-![Contact](./screenshots/contact.png)
 
 ---
 
