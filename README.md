@@ -1,44 +1,52 @@
-# **Portfolio Website**
+# Portfolio
 
-Live Demo: https://my-portfolio-nine-neon-28.vercel.app
+A personal portfolio website built with React to showcase my projects, skills, and contact information through a clean, animated, and responsive interface.
 
-A personal portfolio website built with **React** to showcase skills, projects, experience, and contact information. This site presents a clean, responsive, and modern frontend interface to highlight my work as a developer.
+## Live Demo
 
----
+https://my-portfolio-nine-neon-28.vercel.app
 
-## **Features**
+## Screenshots
 
-- Built with **React** and modern frontend practices  
-- **Responsive design** for desktop, tablet, and mobile
-- Showcases **projects, skills, about, and contact sections**
-- Smooth user interaction and intuitive navigation
-- Deployed on **Vercel** for fast performance
-- Easy to update and customize for future improvements
+**Home**
 
----
+![Portfolio home page](logos/portfolio.png)
 
-## **Tech Stack**
+**Projects**
 
-- **React**
-- **JavaScript**
-- **CSS**
-- **Responsive Web Design**
-- Hosted on **Vercel**
+![Projects bento grid](logos/projects.png)
 
----
+## Technologies
 
-## **About the Project**
+- React 19 + Vite
+- Tailwind CSS 4
+- GSAP (hover tilt, magnetism, and particle effects)
+- AOS (scroll reveal animations)
+- Lucide React & React Icons
+- react-simple-typewriter
 
-This portfolio was created to present my work, showcase my skillset in modern web development, and act as a professional hub for recruiters and collaborators. It highlights examples of frontend projects, provides a short bio, and includes contact links for networking or job opportunities.
+## Features
 
----
+- Responsive layout across mobile, tablet, and desktop
+- Bento-style project grid with glow, spotlight, and particle hover effects
+- Toggleable navbar with an icon-based show/hide control
+- Mobile hamburger navigation menu
+- Animated hero section with a typewriter effect
+- Scrolling tech stack logo loop
+- Scroll-triggered section reveal animations
 
-## **Getting Started**
-
-To run this project locally:
+## Getting Started
 
 ```bash
-git clone <your-repo-link>
-cd <project-name>
+git clone https://github.com/damlabuyukutnu/my-portfolio.git
+cd my-portfolio
 npm install
 npm run dev
+```
+
+The app will be available at `http://localhost:5173`.
+
+## Contact
+
+- LinkedIn: [linkedin.com/in/damlanurbuyukutnu](https://linkedin.com/in/damlanurbuyukutnu)
+- GitHub: [github.com/damlabuyukutnu](https://github.com/damlabuyukutnu)

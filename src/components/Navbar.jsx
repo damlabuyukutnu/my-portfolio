@@ -37,7 +37,7 @@ const Navbar = () => {
                         ? {
                             display: isOpen ? "flex" : "none",
                             position: "absolute",
-                            top: "70px",
+                            top: "100%",
                             left: 0,
                             right: 0,
                             background: "rgb(6,0,16)",
@@ -64,7 +64,8 @@ const styles = {
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
-        padding: "1rem 2.5rem",
+        gap: "1rem",
+        padding: "1rem clamp(1rem, 5vw, 2.5rem)",
         background: "rgb(6,0,16)",
         color: "#fff",
         position: "sticky",
@@ -76,8 +77,9 @@ const styles = {
         fontFamily: "'Roboto Slab Italic'",
         fontWeight: 400,
         fontStyle: "italic",
-        fontSize: "1.8rem",
+        fontSize: "clamp(1.1rem, 4.2vw, 1.8rem)",
         letterSpacing: "1px",
+        lineHeight: 1.2,
     },
 
     navLinks: {
@@ -100,6 +102,8 @@ const styles = {
         color: "#fff",
         fontSize: "2rem",
         cursor: "pointer",
+        flexShrink: 0,
+        lineHeight: 1,
     },
 };
 

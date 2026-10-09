@@ -62,6 +62,7 @@
   }
 
   .card {
+    box-sizing: content-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -191,6 +192,7 @@
 
   /* Border glow effect */
   .card--border-glow::after {
+    box-sizing: content-box;
     content: '';
     position: absolute;
     inset: 0;
