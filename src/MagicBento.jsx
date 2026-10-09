@@ -12,21 +12,20 @@ const MOBILE_BREAKPOINT = 768;
 const cardData = [
     {
         color: '#060010',
-        title: 'Calculator',
-        description: 'Simple calculator application',
-        label: 'Project 1',
-        liveLink: 'https://hesap-makinesi-basit.vercel.app',
-        githubLink: 'https://github.com/damlabuyukutnu/hesap-makinesi-basit',
-        image: '/logos/hesap-makinesi.png'
-    },
-    {
-        color: '#060010',
         title: 'Github User Search App',
         description: 'Simple GitHub user search application',
-        label: 'Project 2',
+        label: 'Project 1',
         liveLink: 'https://github-user-search-zeta-ruddy.vercel.app',
         githubLink: 'https://github.com/damlabuyukutnu/GithubUserSearch',
         image: '/logos/github-search.png'
+    },
+    {
+        color: '#060010',
+        title: 'Microblog',
+        description: 'Microblog application',
+        label: 'Project 2',
+        githubLink: 'https://github.com/damlabuyukutnu/microblog',
+        image: '/logos/microblog.png'
     },
     {
         color: '#060010',
@@ -39,11 +38,12 @@ const cardData = [
     },
     {
         color: '#060010',
-        title: 'Microblog',
-        description: 'Microblog application',
+        title: 'Ralenta CRM',
+        description: 'CRM & Sales Dashboard',
         label: 'Project 4',
-        githubLink: 'https://github.com/damlabuyukutnu/microblog',
-        image: '/logos/microblog.png'
+        githubLink: 'https://github.com/damlabuyukutnu/ralenta-crm',
+        liveLink: 'https://ralenta-crm.vercel.app/',
+        image: '/logos/analytics.png'
     },
     {
         color: '#060010',
