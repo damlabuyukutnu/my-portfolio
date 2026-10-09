@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -15,15 +15,20 @@ import SplashCursor from './SplashCursor'
 
 
 function App() {
+  const [isActive, setIsActive] = useState(false);
   useEffect(() => {
     AOS.init({ once: true, duration: 900 });
   }, []);
 
   return (
     <div className="portfolio-bg">
-      <Navbar />
+      {isActive && (<Navbar />)}
       <main>
 
+        <div className="flex flex-center">
+          <button onClick={() => setIsActive(!isActive)}>hide navbar</button>
+
+        </div>
         <SplashCursor />
         <Home />
         <LogoLoop />

@@ -30,21 +30,20 @@ const cardData = [
     },
     {
         color: '#060010',
-        title: 'Microblog',
-        description: 'Microblog application',
+        title: 'E-Commerce Dashboard',
+        description: 'E-commerce Admin Dashboard',
         label: 'Project 3',
-        liveLink: 'https://microblog-puce-psi.vercel.app/login',
-        githubLink: 'https://github.com/damlabuyukutnu/microblog',
-        image: '/logos/microblog.png'
+        liveLink: 'https://ecommerce-dashboard-one-kappa.vercel.app',
+        githubLink: 'https://github.com/damlabuyukutnu/ecommerce-dashboard',
+        image: '/logos/dashboard.png'
     },
     {
         color: '#060010',
-        title: 'Shopping Site',
-        description: 'E-commerce website',
+        title: 'Microblog',
+        description: 'Microblog application',
         label: 'Project 4',
-        liveLink: 'https://shopping-site-three-ruddy.vercel.app',
-        githubLink: 'https://github.com/damlabuyukutnu/shopping-site',
-        image: '/logos/shopping-site.png'
+        githubLink: 'https://github.com/damlabuyukutnu/microblog',
+        image: '/logos/microblog.png'
     },
     {
         color: '#060010',
@@ -57,12 +56,12 @@ const cardData = [
     },
     {
         color: '#060010',
-        title: 'Todo App',
-        description: 'To-do list application',
+        title: 'Shopping Site',
+        description: 'E-commerce website',
         label: 'Project 6',
-        liveLink: 'https://todo-app-topaz-seven-30.vercel.app',
-        githubLink: 'https://github.com/damlabuyukutnu/todo-app',
-        image: '/logos/todo-app.png'
+        liveLink: 'https://shopping-site-three-ruddy.vercel.app',
+        githubLink: 'https://github.com/damlabuyukutnu/shopping-site',
+        image: '/logos/shopping-site.png'
     }
 ];
 
