@@ -10,11 +10,11 @@ https://my-portfolio-nine-neon-28.vercel.app
 
 **Home**
 
-![Portfolio home page](logos/portfolio.png)
+![Portfolio home page](public/logos/portfolio.png)
 
 **Projects**
 
-![Projects bento grid](logos/projects.png)
+![Projects bento grid](public/logos/projects.png)
 
 ## Technologies
 
